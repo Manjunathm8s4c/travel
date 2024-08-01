@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website with Background Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Explore the World</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Discover Your Next Adventure</h2>
+            <p>Find the best travel destinations and experiences just for you.</p>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destination-cards">
+                <div class="card">
+                    <img src="paris.jpg" alt="Paris">
+                    <h3>Paris</h3>
+                    <p>The city of light, known for its art, fashion, and gastronomy.</p>
+                </div>
+                <div class="card">
+                    <img src="nyc.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, full of skyscrapers and cultural landmarks.</p>
+                </div>
+                <div class="card">
+                    <img src="tokyo.jpg" alt="Tokyo">
+                    <h3>Tokyo</h3>
+                    <p>A bustling metropolis with a mix of traditional and modern experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Explore the World. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Audio element for background music -->
+    <audio id="backgroundMusic" src="background-music.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
